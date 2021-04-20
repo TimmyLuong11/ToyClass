@@ -50,7 +50,7 @@ namespace ToyMain
             int ranNum;
             Random ran = new Random();
             ranNum = ran.Next(1, 25);
-            return $"{Manufacturer.ToUpper()[0]}{Manufacturer.Substring(1)} {ranNum}";
+            return $"Aisle: {Manufacturer.ToUpper()[0]}{ranNum}";
         }
     }
 }
